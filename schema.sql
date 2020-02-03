@@ -1,0 +1,2 @@
+.schema MOVS
+.quit
