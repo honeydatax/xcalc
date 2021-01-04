@@ -1,0 +1,38 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,50,50)
+  Text = ("Xcalc")
+  { TextBox1 TextBox
+    MoveScaled(1,0,48,4)
+    Text = ("0")
+  }
+  { TextBox2 TextBox
+    MoveScaled(1,5,48,4)
+    Text = ("0")
+  }
+  { Button1 Button
+    MoveScaled(2,10,4,4)
+    Text = ("+")
+  }
+  { Button2 Button
+    MoveScaled(8,10,4,4)
+    Text = ("-")
+  }
+  { Button3 Button
+    MoveScaled(14,10,5,4)
+    Text = ("X")
+  }
+  { Button4 Button
+    MoveScaled(20,10,5,4)
+    Text = (":")
+  }
+  { Button5 Button
+    MoveScaled(26,10,7,4)
+    Text = ("remain")
+  }
+  { TextBox3 TextBox
+    MoveScaled(2,16,47,4)
+    Text = ("0")
+  }
+}

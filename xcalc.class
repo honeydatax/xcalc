@@ -1,0 +1,62 @@
+' Gambas class file
+
+Public Sub _new()
+
+End
+
+Public Sub Form_Open()
+
+End
+
+Public Sub Button1_Click()
+Dim v1 As Float
+Dim v2 As Float
+Dim v3 As Float  
+v1 = Val(TextBox1.Text)
+v2 = Val(TextBox2.Text)
+v3 = v1 + v2
+TextBox3.Text = Str(v3)
+End
+
+Public Sub Button2_Click()
+
+  Dim v1 As Float
+Dim v2 As Float
+Dim v3 As Float  
+v1 = Val(TextBox1.Text)
+v2 = Val(TextBox2.Text)
+v3 = v1 - v2
+TextBox3.Text = Str(v3)
+End
+
+Public Sub Button3_Click()
+Dim v1 As Float
+Dim v2 As Float
+Dim v3 As Float  
+v1 = Val(TextBox1.Text)
+v2 = Val(TextBox2.Text)
+v3 = v1 * v2
+TextBox3.Text = Str(v3)
+End
+
+Public Sub Button4_Click()
+Dim v1 As Float
+Dim v2 As Float
+Dim v3 As Float  
+v1 = Val(TextBox1.Text)
+v2 = Val(TextBox2.Text)
+v3 = v1 / v2
+TextBox3.Text = Str(v3)
+End
+
+Public Sub Button5_Click()
+Dim v1 As Float
+Dim v2 As Float
+Dim v3 As Float  
+Dim v4 As Float  
+v1 = Val(TextBox1.Text)
+v2 = Val(TextBox2.Text)
+v3 = v1 / v2
+v4 = v1 - (Int(v3) * v2)
+TextBox3.Text = Str(v4)
+End
