@@ -1,4 +1,4 @@
-# m430
+# xcalc
 
 
 xcalc graphic calculator compile on gambas
